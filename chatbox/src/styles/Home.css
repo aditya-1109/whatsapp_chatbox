@@ -1,0 +1,24 @@
+/* Home.css */
+
+/* Container for the left and right sections */
+.home-layout {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Left section for the contacts or navigation */
+.left-section {
+    flex: 0.3; /* 30% width */
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+}
+
+/* Right section where children (Right, Contact, Profile) will be displayed */
+.right-section {
+    flex: 0.7; /* 70% width */
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

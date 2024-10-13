@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Left{
+  width: 30%;
+}
+
+
+.profile_pic{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: 4px;
+  display: inline;
+}
+
+.Contact_list{
+  list-style-type: none;
+  margin-left: -9%;
+  height: 650px;
+  overflow: scroll;
+}
+
+.list_item{
+  border: 1px solid black; 
+  
+}
+
+.name{
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  display: inline;
+  margin-left: 20px;
+  margin-bottom: -50rem;
+}
+
+.Add_button{
+  margin-left: 23%;
+  position: absolute;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.input_contact{
+  border-radius: 20px;
+  border: 3px solid black;
+  width: 82%;
+  margin-top: 5px;
+  height: 25px;
+}
+
+.Search{
+  background-color: rgb(2, 69, 2);
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+}
+
+.Right{
+  width: 70%;
+  position: absolute;
+  background-color: aqua;
+  margin-left: 30%;
+  margin-top: -48%;
+  height: 720px;
+}
+
+.Chat_form{
+  margin-top: 2px;
+}
+
+.chat_input{
+  width: 60rem;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.Send{
+  background-color: rgb(2, 69, 2);
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  margin-left: 5px;
+  width: 80px;
+}
+
+.Chat_container{
+  display: flex;
+  justify-content: right;
+}
+
+.Chat_list{
+  overflow: scroll;
+  scrollbar-width: none;
+  height: 630px;
+  list-style: none;
+  
+}
+
+.Chat{
+  background-color: green;
+  margin: 2px;
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+.chats{
+  margin: 10px;
+  padding: 10px;
+}
+
+.Add{
+  width: 70%;
+  position: absolute;
+  background-color: aqua;
+  margin-left: 30%;
+  margin-top: -48%;
+  height: 720px;
+}
+
+.Add_Form{
+  margin: 20px;
+}

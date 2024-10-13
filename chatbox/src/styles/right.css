@@ -1,0 +1,135 @@
+/* styles/right.css */
+
+/* Container for the whole right component */
+.right-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* Chat header containing user's name and profile picture */
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px 10px 0 0;
+  text-decoration: none;
+}
+
+.chat-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-header h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+/* Container for the chat messages */
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #e9e9e9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.no-chat-message {
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+}
+
+/* Style for the chat list */
+.chat-list {
+  list-style: none;
+  padding: 0;
+}
+
+.chat {
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sent {
+  justify-content: flex-end;
+}
+
+.received {
+  justify-content: flex-start;
+}
+
+/* Message bubble style */
+.chat-message {
+  max-width: 60%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.sent .chat-message {
+  background-color: #4caf50;
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.received .chat-message {
+  background-color: #fff;
+  color: #333;
+  border-bottom-left-radius: 0;
+  border: 1px solid #ddd;
+}
+
+/* Chat input form */
+.chat-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Chat input field */
+.chat-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-right: 10px;
+}
+
+/* Send button */
+.send-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,65 @@
+/* styles/navbar.css */
+
+.navbar {
+    background-color: #ffffff; /* White background for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items apart */
+}
+
+.navbar-container {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    flex: 1; /* Take up all available space */
+}
+
+.add-button {
+    font-size: 24px; /* Larger font size for the button */
+    color: #007bff; /* Primary color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.add-button:hover {
+    background-color: #f0f2f5; /* Light gray on hover */
+}
+
+.input-contact {
+    flex: 1; /* Grow to take available space */
+    margin: 0 10px; /* Margin between elements */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.search-button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.profile-button {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 0; /* Remove padding */
+}
+
+.profile-image {
+    width: 40px; /* Set width for profile image */
+    height: 40px; /* Set height for profile image */
+    border-radius: 50%; /* Circular profile image */
+    border: 2px solid #007bff; /* Border color */
+}
